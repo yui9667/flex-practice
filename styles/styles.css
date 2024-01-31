@@ -12,7 +12,6 @@
 }
 
 body {
-  background-color: #b4eadf;
   font-family: "Sixtyfour", sans-serif;
 }
 /*Squares*/
@@ -143,6 +142,7 @@ body {
 /*Circles*/
 .circles {
   background-color: var(--circles-background);
+  padding-top: 20px;
 }
 .container-circles {
   display: flex;
@@ -151,7 +151,7 @@ body {
   justify-content: space-evenly;
 }
 .small-container {
-  width: 320px;
+  width: 350px;
   height: 220px;
   background-color: var(--circles-container);
   border-radius: 4px;
@@ -177,7 +177,7 @@ body {
 }
 .case1::after {
   content: "";
-  width: 30%;
+  width: 100%;
 }
 .circles-item1:nth-child(n + 4) {
   order: 1;
@@ -195,7 +195,7 @@ body {
 }
 .case2::before {
   content: "";
-  width: 30%;
+  width: 40%;
 }
 .circles-item2 {
   width: 50px;
